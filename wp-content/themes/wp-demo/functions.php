@@ -71,7 +71,7 @@ function wp_demo_setup() {
 		'link',
 	) );
 
-
+}
 
 endif; // wp_demo_setup
 add_action( 'after_setup_theme', 'wp_demo_setup' );
